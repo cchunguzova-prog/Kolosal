@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: sans-serif;
+  background-color: #0b0b22;
+}
+
+
+.collosal {
+  background-color: #0b0b22;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+  padding: 20px 80px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 40px;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #ffffff1a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section {
+  text-align: center;
+  color: white;
+  padding-top: 120px;
+}
+
+section p:first-child {
+  color: #16fcd2;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+section h4 {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: white;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section p {
+  color: #ffffff99;
+  max-width: 650px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+
+section div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+section button {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: rgb(250, 246, 246);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+section button:first-child {
+  background-color: #6016fc;
+}
+
+section button:last-child {
+  background: #cfc5c51a;
+  color: white;
+}
+
+/* ____________Header_________  */
+.carder {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  background-color: #ffffff1a;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 330px;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  background-color: #ffffff1a;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+.card h3 {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 2;
+  color: #ffffffb3;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 910px;
+  margin: 100px auto 0;
+  color: #ffffff99;
+  font-family: Cambria, Georgia, serif;
+  font-size: 32px;
+  font-weight: bold;
+}
